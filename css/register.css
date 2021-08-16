@@ -1,0 +1,131 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+    padding-top: 18px;
+}
+
+.registerarea {
+    margin-top: 20px;
+    height: 522px;
+    border: 1px solid #ccc;
+}
+
+.registerarea h3 {
+    height: 42px;
+    line-height: 42px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 400;
+     /* border: 1px solid #ccc; */
+    background-color: #ececec;
+}
+
+.registerarea h3 .login{
+    float: right;
+    font-size: 14px;
+}
+
+.registerarea h3 .login a {
+    color: #c81523;
+}
+
+.registerarea .reg_form {
+    width: 600px;
+    margin: 50px auto 0;
+}
+
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+.reg_form ul li .inp{
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+
+.reg_form ul li .error {
+    color: #c81523;
+}
+
+.error_icon {
+    display: inline-block;
+    margin-top: -2px;
+    margin-left: 5px;
+    margin-right: 2px;
+    width: 20px;
+    height: 20px;
+    background: url(../upload/er_icon1_03.png) no-repeat;
+    vertical-align: middle;
+}
+
+.reg_form ul .safe {
+    padding-left: 170px;
+}
+
+.reg_form ul .safe em{
+    padding: 0 12px;
+    color: #ccc;
+}
+
+.reg_form ul .safe .ruo {
+    background-color: #c81523;
+}
+
+.reg_form ul .safe .zhong {
+    background-color: #40b83f;
+}
+
+.reg_form ul .safe .qiang {
+    background-color: #f79100;
+}
+
+.reg_form ul .agree {
+    padding-left: 95px;
+}
+
+.reg_form ul .agree input{
+    vertical-align: middle;
+}
+
+.reg_form ul .agree a {
+    color: #1ba1e6;
+}
+
+.reg_form ul .sub {
+    margin-left: 110px;
+    margin-top: 30px;
+    width: 200px;
+    height: 34px;
+    background-color: #c81523;
+    font-size: 14px;
+    color: #fff;
+}
+
+.mod_copyright {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.mod_copyright .links {
+    margin-bottom: 15px;
+}
+
+.copyright {
+    line-height: 20px;
+}
+
+.mod_copyright .links a {
+    padding: 0 3px;
+}

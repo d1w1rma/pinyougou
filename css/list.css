@@ -1,0 +1,67 @@
+.header .sk {
+    position: absolute;
+    padding: 3px 0 0 14px;
+    border-left: 2px solid #c81523;
+    left: 190px;
+    top: 20px;
+}
+
+.nav {
+    overflow: hidden;
+}
+
+.nav .sk_list {
+    float: left;
+}
+
+.nav .sk_list ul li {
+    float: left;
+}
+
+.nav .sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.nav .sk_con {
+    float: left;
+}
+
+.nav .sk_con ul li {
+    float: left;
+}
+
+.nav .sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    /* 行高大于高度文字就会偏下 */
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+    margin-left: 5px; 
+    content: '\e9cd';
+    font-family: icomoon;
+}
+
+.sk_bd ul li {
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #c81523;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
